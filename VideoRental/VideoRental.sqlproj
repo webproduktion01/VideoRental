@@ -69,5 +69,17 @@
     <Build Include="dbo\Tables\Member.sql" />
     <Build Include="dbo\Tables\Movie.sql" />
     <Build Include="dbo\Tables\VideoRental.sql" />
+    <Build Include="dbo\Tables\Genre.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ListRentalReturnsAtDate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="MockData.sql" />
   </ItemGroup>
 </Project>
