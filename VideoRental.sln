@@ -5,6 +5,28 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VideoRental", "VideoRental\VideoRental.sqlproj", "{DF0960AD-DE59-47E1-A694-A7A74367A677}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite3", "..\..\..\Documents\Visual Studio 2015\WebSites\WebSite3\", "{D8D332AD-5AC4-43EA-A790-D68D2DD025BD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51023"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Documents\Visual Studio 2015\WebSites\WebSite3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51023\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51023"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Documents\Visual Studio 2015\WebSites\WebSite3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51023\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51023"
+		SlnRelativePath = "..\..\..\Documents\Visual Studio 2015\WebSites\WebSite3\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +39,10 @@ Global
 		{DF0960AD-DE59-47E1-A694-A7A74367A677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0960AD-DE59-47E1-A694-A7A74367A677}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF0960AD-DE59-47E1-A694-A7A74367A677}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D8D332AD-5AC4-43EA-A790-D68D2DD025BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D332AD-5AC4-43EA-A790-D68D2DD025BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D332AD-5AC4-43EA-A790-D68D2DD025BD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D332AD-5AC4-43EA-A790-D68D2DD025BD}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
