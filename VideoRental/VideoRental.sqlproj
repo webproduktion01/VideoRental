@@ -70,6 +70,7 @@
     <Build Include="dbo\Tables\Movie.sql" />
     <Build Include="dbo\Tables\VideoRental.sql" />
     <Build Include="dbo\Tables\Genre.sql" />
+    <Build Include="dbo\Tables\Video.sql" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -77,9 +78,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ListRentalReturnsAtDate.cs" />
+    <Compile Include="ListAllRentalReturnsAtDate1.cs" />
+    <Compile Include="ShowMemberDueReturns.cs" />
+    <Compile Include="ShowMoviesInGenre.cs" />
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="MockData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VideoRental.publish.xml" />
+    <None Include="testScript.sql" />
   </ItemGroup>
 </Project>

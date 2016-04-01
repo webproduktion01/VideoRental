@@ -1,0 +1,1 @@
+﻿exec [dbo].[ListAllRentalReturnsAtDate] @ReturnDate = '2016-05-01'
